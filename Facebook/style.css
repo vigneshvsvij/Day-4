@@ -19,16 +19,11 @@ body{
 #box2{
     width: 50%;
     height: 100vh;
-    float: left;
+    float: right;
     overflow: hidden;
     display: flex;
+    flex-direction: column;
 }
-
-/* #box3{
-    width: 100%;
-    clear: both;
-    overflow: hidden;
-} */
 
 #form{
     box-shadow: -10px 10px 10px #dbdddf , 10px 10px 10px #dbdddf, 10px -10px 10px #dbdddf, -10px -10px 10px #dbdddf ;
@@ -92,6 +87,7 @@ span{
     color: #ffffff;
     font-size: 15px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #signup{
