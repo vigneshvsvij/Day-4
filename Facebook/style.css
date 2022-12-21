@@ -14,6 +14,7 @@ body{
     width: 50%;
     float: left;
     display: flex;
+    box-sizing: border-box;
 }
 
 #box2{
@@ -23,6 +24,7 @@ body{
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
 }
 
 #form{
@@ -35,13 +37,13 @@ body{
     text-align: center;
     border: 2px solid whitesmoke;
     border-radius: 2%;
+    box-sizing: border-box;
 }
 
 #img{
     margin: auto;
     width: 100%;
     height: 30%;
-    background-color: white;
     padding-left: 100px;   
 }
 
