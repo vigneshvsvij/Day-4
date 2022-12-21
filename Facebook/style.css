@@ -48,7 +48,7 @@ body{
 }
 
 input, button{
-    padding: 2.5%
+    padding: 2.5%;
     margin: 2.5%;
     border: 1px solid  #DDDFE2;
     border-radius: 5px;
